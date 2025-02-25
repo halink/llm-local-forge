@@ -1,0 +1,16 @@
+[project]
+name = "llm-local-forge"
+version = "0.1.0"
+description = "在个人PC上体验LLM预训练完整流程。"
+authors = [
+    {name = "halink",email = "cnhalink@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
